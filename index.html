@@ -1,0 +1,157 @@
+<!--doctype html-->
+<html>
+
+<head>
+	<title>Shreya's Portfolio</title>
+	<link rel="shortcut icon" type="image/x-icon" href="Shreya-logo.jpg">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<!--using FontAwesome-->
+	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	<section>
+		<!--navigation------------------------->
+		<nav>
+			<!--logo-->
+			<img src="sr_logo.jpg" alt="logo" class="logo" />
+			<!--menu-->
+			<ul>
+				<li><a href="index.html" class="active">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><button id="contact" onclick="scrollWin(0, 1400)"><b>Contact</b></button></li>
+			</ul>
+			<script>
+				function scrollWin(x, y) {
+					window.scrollBy(x, y);
+				}
+			</script>
+			<!--bars--------------->
+			<div class="toggle"></div>
+
+		</nav>
+		<!--text----------------------->
+		<div class="text-container">
+			<p>Hello,</p>
+			<p>I&#8217;M SHREYA ROY</p>
+			<p>Student at NIT DURGAPUR <br>
+			<h3>Active learner/ Passionate about programming and design</h3>
+			</p>
+			<button id="work" onclick="work()">My Works</button>
+			<script>
+				function work() {
+					window.location = "myWork.html";
+				}
+			</script>
+		</div>
+		<!--model---------------------->
+		<img alt="model" class="model" src="shreya.jpg">
+	</section>
+	<div class="about-container">
+		<!--img-->
+		<img src="Shreya.jpeg" />
+		<!--about-me-text-->
+		<div class="about-text">
+			<p>About Me</p>
+			<p>Learner & Programmer</p>
+			<p>Hi! I am Shreya Roy, undergraduate student of Electronics and Communication Engineering at National
+				Institute of Technology, Durgapur.
+			</p>
+			<p>I am a tech enthusiast who likes creating new things and experimenting with things. I am a fast learner
+				and enjoy challenges encountered along the way.
+				I am always willing to learn new things with full enthusiasm and passion.</p>
+			<p>Currently I&#8217;m eagerly looking for an oppotunity to be a part of an highly esteemed
+				organisation.</p>
+
+			<button type="button" onclick="resume()">Resume</button>
+		</div>
+		<script>
+			function resume() {
+				window.location = "resume.html";
+			}
+		</script>
+	</div>
+	<!--services-container---------------------------->
+	<div class="services ">
+		<!--text-->
+		<div class="services-text ">
+			<p>Qualification</p>
+
+		</div>
+		<div class="box-container">
+			<!--1------------->
+			<div class="box-1">
+				<span>Education</span>
+				<p class="details"><ul >
+					<li >• College: <br /> B.Tech in Electronics and Communication Engineering <br/> CGPA =8.09(6th Sem)
+					</li>
+					<li >• High School: <br />12th- Barasat Kalikrishna Girls' High School<br/> Percentage = 75%
+						<br/>10th- Barasat Kalikrishna Girls' High School<br/>Percentage = 89.85%
+					</li>
+				  </ul>
+			</div>
+			<!--2------------->
+			<div class="box-2">
+				<span>Skills</span>
+				<p class="details">
+					<ul>
+						<li>• Language: C, C++</li>
+						<li>• Database: MySQL</li>
+						<li>• Script: Python</li>
+						<li>• Tools: Android Studio, Eclipse, Microsoft Office, Visual Studio code.</li>
+						<li>• OS: Windows </li>
+					</ul>
+				</p>
+				
+			</div>
+			<!--3------------->
+			<div class="box-3">
+				<span>Project Works</span>
+				<p class="details">
+					<ul>
+						<li>• XML Parsing and	Database connection</li>
+						<li>• Calculator App</li>
+						<li>• Notepad App </li>
+						<li>• E-Library web	application</li>
+						<li>• Real life application of Genetic Algorithm</li>
+					</ul>
+				</p>
+				
+			</div>
+		</div>
+	</div>
+	<!--if you have any project in your mind contact me-->
+	<div class="contact-me">
+		<p>If You Have Any Project In Your Mind <br/>or <br/>Want To Hire</p>
+		<h2>Contact Me</h2>
+		<h3>Feel free to get in touch. </h3>
+		<a></i>
+			<h3><img src="email.jfif" height="25px" width="25px"> shreyaroy516@gmail.com</h3>
+		</a>
+
+	</div>
+	<!--footer--------------->
+	<footer>
+		<!--heading-->
+		<p>Around the web</p>
+		<!--paragraph-->
+
+		<!--social-->
+		<div class="social-icons">
+			<a href="https://www.facebook.com/profile.php?id=100052654578440"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.linkedin.com/in/shreya-roy-35a66b1b1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BvqJsTKq0Qoiq8bF2ltAing%3D%3D"
+				class="linkedin"><i class="fa fa-linkedin"></i></a>
+		</div>
+
+	</footer>
+	<!--social-attach-bar-->
+	<div class="social">
+		<a href="https://www.facebook.com/profile.php?id=100052654578440"><i class="fab fa-facebook-f"></i></a>
+		<a href="https://www.linkedin.com/in/shreya-roy-35a66b1b1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BvqJsTKq0Qoiq8bF2ltAing%3D%3D"
+			class="linkedin"><i class="fa fa-linkedin"></i></a>
+	</div>
+
+</body>
+
+</html>
